@@ -9,7 +9,8 @@ import random
 MANPAGE_URL = 'http://man7.org/linux/man-pages/'
 TWEETDATA = 'manpage-tweetdata/manpage-tweetdata.csv'
 HASHTAGS = "#linux #manpage"
-SPACES_ELIPSES = 2 + 3
+PREFIX = '$ man '
+SPACES_ELIPSES = len(PREFIX) + 2 + 3
 TWITTER_URL_LEN = 22
 
 def twitter_authentication():
@@ -65,8 +66,8 @@ def maketweet():
    command_str = create_str(command[0] + ": " + command[1])
    url = MANPAGE_URL + command[2].strip('.').strip('/')
 
-   #command... url #hashtag
-   tweet = command_str + url + " " + HASHTAGS
+   #prefix command... url #hashtag
+   tweet = PREFIX + command_str + url + " " + HASHTAGS
    return tweet
 
 def main():
