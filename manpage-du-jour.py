@@ -70,12 +70,15 @@ def maketweet():
    tweet = command_str + url + " " + HASHTAGS
    return tweet
 
-manpagetweet = maketweet()
+def main():
+   twitter = twitter_authentication()
 
-sys.stdout.write("\n" + manpagetweet + "\n\n")
+   # Create and output tweet...
+   manpagetweet = maketweet()
+   sys.stdout.write("\n" + manpagetweet + "\n\n")
 
-twitter = twitter_authentication()
+   # Update twitter status
+   twitter.statuses.update(status=manpagetweet)
 
-# Update twitter status
-twitter.statuses.update(status=manpagetweet)
-
+if __name__ == "__main__":
+    main()
