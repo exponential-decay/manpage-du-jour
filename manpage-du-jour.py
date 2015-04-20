@@ -70,15 +70,20 @@ def maketweet():
    tweet = PREFIX + command_str + url + " " + HASHTAGS
    return tweet
 
-def main():
-   twitter = twitter_authentication()
-
+def tweet_update(twitter):
    # Create and output tweet...
    manpagetweet = maketweet()
    sys.stdout.write("\n" + manpagetweet + "\n\n")
 
    # Update twitter status
    twitter.statuses.update(status=manpagetweet)
+
+def main():
+   twitter = twitter_authentication()
+   
+   #Generate two tweets and post to timeline... 
+   for x in range(2):
+      tweet_update(twitter)
 
 if __name__ == "__main__":
     main()
