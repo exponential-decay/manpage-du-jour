@@ -35,7 +35,7 @@ or
 
      whatis -r . 
 
-##Colohpone
+##Colohpon
 
 Banner photo: Thompson and Richie at the PDP-11. CC-BY-SA, Wikipedia: http://en.wikipedia.org/wiki/Ken_Thompson#/media/File:Ken_Thompson_(sitting)_and_Dennis_Ritchie_at_PDP-11_(2876612463).jpg 
 
