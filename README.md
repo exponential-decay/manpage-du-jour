@@ -37,7 +37,7 @@ or
 
 ## Colohpon
 
-Banner photo: Thompson and Richie at the PDP-11. CC-BY-SA, Wikipedia: http://en.wikipedia.org/wiki/Ken_Thompson#/media/File:Ken_Thompson_(sitting)_and_Dennis_Ritchie_at_PDP-11_(2876612463).jpg 
+Banner photo: [Thompson and Richie at the PDP-11](http://en.wikipedia.org/wiki/Ken_Thompson#/media/File:Ken_Thompson_(sitting)_and_Dennis_Ritchie_at_PDP-11_(2876612463).jpg). CC-BY-SA, Wikipedia.  
 
-Avatar: Unix Programmer's Manual (Cropped). Copyright © 2015 Computer History Museum: http://s7.computerhistory.org/is/image/CHM/102616111-03-01?$re-medium$ 
+Avatar: [Unix Programmer's Manual (Cropped)](http://s7.computerhistory.org/is/image/CHM/102616111-03-01?$re-medium$ ). Copyright © 2015 Computer History Museum.
 
